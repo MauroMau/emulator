@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Ryujinx</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+    <div class="container">
+        <h1>Ryujinx Emulator Download</h1>
+        <p>Hier kannst du die neueste Version des Ryujinx Emulators herunterladen.</p>
+        <a id="downloadLink" href="ryujinx-1-1-1403-win_x64-sZc5U5Iz.7z" download>Download</a>
+    </div>
+    <div class="theme-switcher">
+        <button id="themeToggle">Wechsel zu Hellmodus</button>
+    </div>
+    <footer>
+        <p>&copy; 2024 MauroMau. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('themeToggle');
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            themeToggle.textContent = document.body.classList.contains('dark-mode') ? 'Wechsel zu Hellmodus' : 'Wechsel zu Dunkelmodus';
+        });
+    </script>
+</body>
+</html>
