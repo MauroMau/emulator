@@ -111,3 +111,25 @@ body.dark-mode #themeToggle {
     background-color: #0a84ff;
     color: #fff;
 }
+
+/* Roms-Button */
+.RomsButton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #007aff;
+    color: #fff;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.RomsButton:hover {
+    background-color: #0051a8;
+}
+
+body.dark-mode .RomsButton {
+    background-color: #0a84ff;
+}
